@@ -59,5 +59,11 @@
             <Setter Property="Padding" Value="20" />
         </Style>
 
+        <Style x:Key="titleText" TargetType="TextBlock">
+            <Setter Property="Foreground" Value="{StaticResource BlackColor}" />
+            <Setter Property="FontSize" Value="20" />
+            <Setter Property="FontWeight" Value="Bold" />
+        </Style>
+
     </Application.Resources>
 </Application>
