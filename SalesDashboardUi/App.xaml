@@ -40,5 +40,11 @@
             </Style.Triggers>
         </Style>
 
+        <Style x:Key="menuButtonText" TargetType="TextBlock">
+            <Setter Property="Foreground" Value="{Binding Path=Foreground, RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type Button}}}" />
+            <Setter Property="FontSize" Value="14"/>
+            <Setter Property="Margin" Value="20 0 0 2"/>
+        </Style>
+
     </Application.Resources>
 </Application>
