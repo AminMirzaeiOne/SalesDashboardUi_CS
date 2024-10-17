@@ -2,8 +2,12 @@
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:local="clr-namespace:SalesDashboardUi"
-             StartupUri="MainWindow.xaml">
+             StartupUri="MainWindow.xaml"
+             xmlns:Icon="http://metro.mahapps.com/winfx/xaml/iconpacks">
     <Application.Resources>
-         
+        <!--Colors-->
+        <SolidColorBrush x:Key="BlackColor" Color="#083353"/>
+        <SolidColorBrush x:Key="GreyColor" Color="#B7B7B7"/>
+        
     </Application.Resources>
 </Application>
