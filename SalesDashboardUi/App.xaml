@@ -53,5 +53,11 @@
             <Setter Property="Height" Value="18"/>
         </Style>
 
+        <Style x:Key="whiteBorder" TargetType="Border">
+            <Setter Property="Background" Value="#ffffff" />
+            <Setter Property="CornerRadius" Value="15" />
+            <Setter Property="Padding" Value="20" />
+        </Style>
+
     </Application.Resources>
 </Application>
