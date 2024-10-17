@@ -6,6 +6,7 @@
              xmlns:local="clr-namespace:SalesDashboardUi.Controls">
     <StackPanel Orientation="Horizontal">
         <Border Width="12" Height="12" Background="#0074FF" CornerRadius="3"  />
+        <TextBlock Text="Marketing" VerticalAlignment="Center" Margin="7 0 20 0" Foreground="#6C879A"/>
 
     </StackPanel>
 </UserControl>
