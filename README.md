@@ -20,7 +20,7 @@ Modern design of sales dashboard user interface in WPF<br />
 2 - Choose from the menu options<br />
 
 <h2>📷 Screenshots</h2>
-<img width="674" alt="Capture28" src="https://github.com/user-attachments/assets/4e53d8a2-d1da-4ec3-a5eb-57880c34b7c2">
-<img width="674" alt="Capture28" src="https://github.com/user-attachments/assets/5f203b25-6af9-4300-a55d-763295a40e81">
-<img width="674" alt="Capture28" src="https://github.com/user-attachments/assets/007d89a6-f11d-40df-af79-8b845e62bc9f">
-<img width="674" alt="Capture28" src="https://github.com/user-attachments/assets/6a0a117e-bac2-4e66-9f5f-9ffc09f53196">
+<img width="674" alt="Capture28" src="https://github.com/user-attachments/assets/995f1997-316e-41cc-9788-b6304f09b93f">
+<img width="674" alt="Capture28" src="https://github.com/user-attachments/assets/0afcab93-ce72-45eb-9b94-ac18fc311e77">
+<img width="674" alt="Capture28" src="https://github.com/user-attachments/assets/10ec3694-6928-46f5-8b66-844dd40933c9">
+<img width="674" alt="Capture28" src="https://github.com/user-attachments/assets/79e55d82-8276-473a-aaa8-135e556ccce5">
