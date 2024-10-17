@@ -258,9 +258,9 @@
                         <TextBlock Text="Sales List" Style="{StaticResource titleText}"/>
                         <TextBlock Text="This is the sales data with the most revenue for this month" TextWrapping="Wrap" Margin="0 10 0 10" Style="{StaticResource secondaryText}"/>
 
-                        <uc:UserCard Title="Reza Asadi" IsActive="True" UpPrice="$1256" DownPrice="$337" Image="/Images/u1.png"/>
-                        <uc:UserCard Title="Firman Jabber" UpPrice="$1049" DownPrice="$789" Image="/Images/u3.png"/>
-                        <uc:UserCard Title="John Doe" UpPrice="$1105" DownPrice="$459" Image="/Images/u1.png"/>
+                        <uc:UserCard Title="Amin Mirzaei" IsActive="True" UpPrice="$1256" DownPrice="$337" Image="/Images/u1.png"/>
+                        <uc:UserCard Title="Agnes Baker" UpPrice="$1049" DownPrice="$789" Image="/Images/u3.png"/>
+                        <uc:UserCard Title="Farid Rahimi" UpPrice="$1105" DownPrice="$459" Image="/Images/u1.png"/>
                     </StackPanel>
                 </Border>
 
