@@ -6,7 +6,7 @@
              xmlns:local="clr-namespace:SalesDashboardUi.Controls"
              xmlns:Icon="http://metro.mahapps.com/winfx/xaml/iconpacks" 
              Name="userCard">
-    <Border>
+    <Border CornerRadius="10" Padding="3" Margin="0 10">
             
     </Border>
 </UserControl>
