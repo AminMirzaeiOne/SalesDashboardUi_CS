@@ -16,6 +16,8 @@
 
 
     <Border CornerRadius="25" Padding="20" Background="#F7F6F4" MouseDown="Border_MouseDown" MouseLeftButtonDown="Border_MouseLeftButtonDown">
-        
+        <Grid>
+            
+        </Grid>
     </Border>
 </Window>
