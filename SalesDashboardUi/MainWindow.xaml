@@ -8,7 +8,7 @@
         xmlns:uc="clr-namespace:SalesDashboardUi.Controls"
         xmlns:Icon="http://metro.mahapps.com/winfx/xaml/iconpacks"
         WindowStartupLocation="CenterScreen" Background="Transparent"
-        WindowStyle="None" AllowsTransparency="True" Height="780" Width="1280">
+        WindowStyle="None" AllowsTransparency="True" Height="724" Width="1223">
 
     <Window.Resources>
         <BooleanToVisibilityConverter x:Key="BoolToVisConverter" />
