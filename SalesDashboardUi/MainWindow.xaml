@@ -136,6 +136,43 @@
                 </StackPanel>
             </Border>
 
+            <Border Grid.Column="1" Style="{StaticResource whiteBorder}" Margin="20 0 20 20">
+                <Grid>
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Left">
+                        <Border Width="50" Height="50" CornerRadius="10" Margin="5 0 20 0">
+                            <Border.Background>
+                                <LinearGradientBrush StartPoint="0.5,0" EndPoint="0.5,1">
+                                    <GradientStop Color="#FB7456" Offset="0"/>
+                                    <GradientStop Color="#FA5654" Offset="1"/>
+                                </LinearGradientBrush>
+                            </Border.Background>
+
+                            <Image Source="/Images/u4.png" Width="40" Height="40"/>
+                        </Border>
+
+                        <StackPanel VerticalAlignment="Center">
+                            <TextBlock Text="Hello, Team" Style="{StaticResource titleText}" FontSize="26" FontWeight="Bold"/>
+                            <TextBlock Text="Have A Nice Day" Foreground="#6C879A" Margin="0 3 0 0"/>
+                        </StackPanel>
+                    </StackPanel>
+
+                    <!--Search Textbox-->
+                    <Grid Width="300" HorizontalAlignment="Right">
+
+                        <TextBlock Margin="15 0" VerticalAlignment="Center" Foreground="#868686" IsHitTestVisible="False" Panel.ZIndex="1" 
+                       Text="Search here ..." 
+                       Visibility="{Binding ElementName=textBoxSearch, Path=Text.IsEmpty, Converter={StaticResource BoolToVisConverter}}" />
+
+                        <TextBox Name="textBoxSearch" Style="{StaticResource searchTextbox}" />
+
+                        <Icon:PackIconMaterial Kind="Magnify" Width="15" Height="15" Foreground="#FF6D46" HorizontalAlignment="Right" Margin="0 0 15 0" VerticalAlignment="Center"/>
+                    </Grid>
+
+                </Grid>
+            </Border>
+
+
+
 
         </Grid>
     </Border>
