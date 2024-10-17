@@ -44,6 +44,12 @@ namespace SalesDashboardUi.Controls
             set { SetValue(AmountProperty, value); }
         }
 
+        public ImageSource Image
+        {
+            get { return (ImageSource)GetValue(ImageProperty); }
+            set { SetValue(ImageProperty, value); }
+        }
+
 
         public InfoCard()
         {
