@@ -183,6 +183,69 @@
                 <uc:InfoCard Grid.Column="2" Title="Return" SubTitle="Compared To ($3100 Last Month)" Amount="5" Image="/Images/return.png" />
             </Grid>
 
+            <Border Grid.Column="1" Grid.Row="2" Style="{StaticResource whiteBorder}" Margin="20 20 20 0">
+                <Grid Margin="10 5">
+                    <!--Title-->
+                    <TextBlock Text="Sales Figures" Style="{StaticResource titleText}"/>
+
+                    <!--Legends-->
+                    <uc:Legends HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0 8 10 0" />
+
+                    <!--Chart-->
+                    <lvc:CartesianChart Grid.Row="1" Margin="5 40 0 60" LegendLocation="None">
+                        <lvc:CartesianChart.DataTooltip>
+                            <lvc:DefaultTooltip Background="Red" Foreground="#ffffff" Opacity="0.7" BulletSize="10">
+                            </lvc:DefaultTooltip>
+                        </lvc:CartesianChart.DataTooltip>
+
+                        <lvc:CartesianChart.AxisX>
+                            <lvc:Axis Foreground="#90A3B2" ShowLabels="True">
+                                <lvc:Axis.Separator>
+                                    <lvc:Separator StrokeThickness="0" Step="2"/>
+                                </lvc:Axis.Separator>
+                            </lvc:Axis>
+                        </lvc:CartesianChart.AxisX>
+
+                        <lvc:CartesianChart.AxisY>
+                            <lvc:Axis MinValue="40" MaxValue="350" Foreground="#90A3B2" ShowLabels="True">
+                                <lvc:Axis.Separator>
+                                    <lvc:Separator StrokeThickness="0"/>
+                                </lvc:Axis.Separator>
+                            </lvc:Axis>
+                        </lvc:CartesianChart.AxisY>
+
+                        <lvc:CartesianChart.Series>
+                            <lvc:LineSeries Values="50,120,110,160,150,180,120,170,165,180" Fill="Transparent" StrokeThickness="3" PointGeometrySize="0">
+                                <lvc:LineSeries.Stroke>
+                                    <LinearGradientBrush>
+                                        <GradientStop Color="#ffffff" Offset="0.06"/>
+                                        <GradientStop Color="#2889FC" Offset="0.5"/>
+                                        <GradientStop Color="#ffffff" Offset="0.93"/>
+                                    </LinearGradientBrush>
+                                </lvc:LineSeries.Stroke>
+                            </lvc:LineSeries>
+                            <lvc:LineSeries Values="170,240,200,220,220,270,200,260,200,240" Fill="Transparent" StrokeThickness="3" PointGeometrySize="0">
+                                <lvc:LineSeries.Stroke>
+                                    <LinearGradientBrush>
+                                        <GradientStop Color="#ffffff" Offset="0.06"/>
+                                        <GradientStop Color="#FE6C47" Offset="0.5"/>
+                                        <GradientStop Color="#ffffff" Offset="0.9"/>
+                                    </LinearGradientBrush>
+                                </lvc:LineSeries.Stroke>
+                            </lvc:LineSeries>
+                        </lvc:CartesianChart.Series>
+                    </lvc:CartesianChart>
+
+                    <!--Note Text-->
+                    <Grid VerticalAlignment="Bottom" Margin="10 0">
+                        <Icon:PackIconMaterial Kind="Information" Foreground="#F96654"/>
+                        <TextBlock TextWrapping="Wrap" Margin="30 0 0 0" LineHeight="18" Foreground="{StaticResource GreyColor}"
+                       Text="Net Sales, Found on the income statement are used to calculate this ration Return and refunds must be backed out of total sales to measure the truly measure the firms assets ability to generate sales."/>
+                    </Grid>
+
+                </Grid>
+            </Border>
+
 
 
 
