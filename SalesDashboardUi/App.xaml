@@ -8,6 +8,13 @@
         <!--Colors-->
         <SolidColorBrush x:Key="BlackColor" Color="#083353"/>
         <SolidColorBrush x:Key="GreyColor" Color="#B7B7B7"/>
-        
+
+        <Style x:Key="menuTitle" TargetType="TextBlock">
+            <Setter Property="Foreground" Value="#ffffff" />
+            <Setter Property="FontSize" Value="16" />
+            <Setter Property="FontWeight" Value="SemiBold" />
+            <Setter Property="Margin" Value="40 30 0 15" />
+        </Style>
+
     </Application.Resources>
 </Application>
