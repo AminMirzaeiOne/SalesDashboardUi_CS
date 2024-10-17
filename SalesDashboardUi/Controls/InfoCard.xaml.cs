@@ -26,6 +26,13 @@ namespace SalesDashboardUi.Controls
         public static readonly DependencyProperty ImageProperty = DependencyProperty.Register("Image", typeof(ImageSource), typeof(InfoCard));
 
 
+        public string Title
+        {
+            get { return (string)GetValue(TitleProperty); }
+            set { SetValue(TitleProperty, value); }
+        }
+
+
         public InfoCard()
         {
             InitializeComponent();
