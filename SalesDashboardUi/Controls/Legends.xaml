@@ -8,6 +8,7 @@
         <Border Width="12" Height="12" Background="#0074FF" CornerRadius="3"  />
         <TextBlock Text="Marketing" VerticalAlignment="Center" Margin="7 0 20 0" Foreground="#6C879A"/>
         <Border Width="12" Height="12" Background="#FF6D48" CornerRadius="3"  />
+        <TextBlock Text="Cases Sales" VerticalAlignment="Center" Margin="7 0 0 0" Foreground="#6C879A"/>
 
     </StackPanel>
 </UserControl>
