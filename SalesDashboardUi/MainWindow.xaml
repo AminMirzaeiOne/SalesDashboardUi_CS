@@ -171,6 +171,19 @@
                 </Grid>
             </Border>
 
+            <Grid Grid.Column="1" Grid.Row="1" Margin="10 0 10 0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <uc:InfoCard Grid.Column="0" Title="Sales" SubTitle="Compared To ($2464 Last Month)" Amount="3" Image="/Images/sale.png" />
+                <uc:InfoCard Grid.Column="1" Title="Purchase" SubTitle="Compared To ($1405 Last Month)" Amount="8" Image="/Images/purchase.png" />
+                <uc:InfoCard Grid.Column="2" Title="Return" SubTitle="Compared To ($3100 Last Month)" Amount="5" Image="/Images/return.png" />
+            </Grid>
+
+
 
 
 
