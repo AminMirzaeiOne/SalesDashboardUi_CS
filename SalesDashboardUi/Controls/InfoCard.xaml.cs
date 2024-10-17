@@ -32,6 +32,12 @@ namespace SalesDashboardUi.Controls
             set { SetValue(TitleProperty, value); }
         }
 
+        public string SubTitle
+        {
+            get { return (string)GetValue(SubTitleProperty); }
+            set { SetValue(SubTitleProperty, value); }
+        }
+
 
         public InfoCard()
         {
