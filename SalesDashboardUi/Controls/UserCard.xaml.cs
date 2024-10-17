@@ -50,6 +50,12 @@ namespace SalesDashboardUi.Controls
             set { SetValue(IsActiveProperty, value); }
         }
 
+        public ImageSource Image
+        {
+            get { return (ImageSource)GetValue(ImageProperty); }
+            set { SetValue(ImageProperty, value); }
+        }
+
         public UserCard()
         {
             InitializeComponent();
