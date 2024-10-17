@@ -5,6 +5,7 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:SalesDashboardUi.Controls">
     <StackPanel Orientation="Horizontal">
-            
+        <Border Width="12" Height="12" Background="#0074FF" CornerRadius="3"  />
+
     </StackPanel>
 </UserControl>
