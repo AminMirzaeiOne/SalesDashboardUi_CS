@@ -44,6 +44,12 @@ namespace SalesDashboardUi.Controls
             set { SetValue(DownPriceProperty, value); }
         }
 
+        public bool IsActive
+        {
+            get { return (bool)GetValue(IsActiveProperty); }
+            set { SetValue(IsActiveProperty, value); }
+        }
+
         public UserCard()
         {
             InitializeComponent();
