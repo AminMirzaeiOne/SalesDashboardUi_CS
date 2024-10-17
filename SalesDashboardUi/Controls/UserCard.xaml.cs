@@ -20,6 +20,8 @@ namespace SalesDashboardUi.Controls
     /// </summary>
     public partial class UserCard : UserControl
     {
+        public static readonly DependencyProperty TitleProperty = DependencyProperty.Register("Title", typeof(string), typeof(UserCard));
+
         public UserCard()
         {
             InitializeComponent();
