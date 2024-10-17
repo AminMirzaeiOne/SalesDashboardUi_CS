@@ -65,5 +65,11 @@
             <Setter Property="FontWeight" Value="Bold" />
         </Style>
 
+        <Style x:Key="secondaryText" TargetType="TextBlock">
+            <Setter Property="Foreground" Value="{StaticResource GreyColor}" />
+            <Setter Property="FontSize" Value="12" />
+            <Setter Property="Margin" Value="0 5 0 5" />
+        </Style>
+
     </Application.Resources>
 </Application>
