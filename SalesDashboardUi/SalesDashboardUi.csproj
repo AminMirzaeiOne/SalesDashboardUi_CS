@@ -111,7 +111,15 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Controls\" />
-    <Folder Include="Images\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\purchase.png" />
+    <Resource Include="Images\return.png" />
+    <Resource Include="Images\sale.png" />
+    <Resource Include="Images\u1.png" />
+    <Resource Include="Images\u2.png" />
+    <Resource Include="Images\u3.png" />
+    <Resource Include="Images\u4.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
