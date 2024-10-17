@@ -21,6 +21,7 @@ namespace SalesDashboardUi.Controls
     public partial class InfoCard : UserControl
     {
         public static readonly DependencyProperty TitleProperty = DependencyProperty.Register("Title", typeof(string), typeof(InfoCard));
+        public static readonly DependencyProperty SubTitleProperty = DependencyProperty.Register("SubTitle", typeof(string), typeof(InfoCard));
 
 
         public InfoCard()
