@@ -38,6 +38,12 @@ namespace SalesDashboardUi.Controls
             set { SetValue(UpPriceProperty, value); }
         }
 
+        public string DownPrice
+        {
+            get { return (string)GetValue(DownPriceProperty); }
+            set { SetValue(DownPriceProperty, value); }
+        }
+
         public UserCard()
         {
             InitializeComponent();
