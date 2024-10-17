@@ -20,6 +20,9 @@ namespace SalesDashboardUi
     /// </summary>
     public partial class MainWindow : Window
     {
+        private bool IsMaximize = false;
+
+
         public MainWindow()
         {
             InitializeComponent();
