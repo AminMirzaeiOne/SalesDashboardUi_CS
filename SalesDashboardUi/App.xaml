@@ -124,5 +124,15 @@
         <SolidColorBrush x:Key="SliderThumb.Track.Background" Color="#F7F6F4"/>
         <SolidColorBrush x:Key="SliderThumb.Track.Border" Color="#FFD6D6D6"/>
 
+        <ControlTemplate x:Key="SliderThumbHorizontalDefault" TargetType="{x:Type Thumb}">
+            <Grid HorizontalAlignment="Center" UseLayoutRounding="True" VerticalAlignment="Center">
+                <Ellipse Fill="#FA5454" Width="30" Height="30" StrokeThickness="20">
+                    <Ellipse.Stroke>
+                        <SolidColorBrush Color="#FA5454" Opacity="0.1"/>
+                    </Ellipse.Stroke>
+                </Ellipse>
+            </Grid>
+        </ControlTemplate>
+
     </Application.Resources>
 </Application>
